@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int e;
+    int f;
+
+
+    cout <<"dame el numero e";
+    cin >> e;
+    cout << "dame el numero f";
+    cin >> f;
+    int suma= e + f;
+    int resta= e - f;
+    int multiplicacion= e * f;
+    float division= e / f;
+    float modulo= e % f;
+  
+    cout<< suma <<endl;
+    cout<< resta << endl;
+    cout<< multiplicacion << endl;
+    cout << division<< endl ;
+    cout << modulo<< endl;
+
+return 0;
+}
